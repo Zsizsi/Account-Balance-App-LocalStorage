@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">    
+    <title>JS practice</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Special+Elite" rel="stylesheet">
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/8756b65303.js"></script>
+</head>
+
+<body>
+    <div id="site-container">
+        <div class="form">
+            <h2>Account Balance App</h2>
+            <div class="inputsAndBtn">
+                <div id="descrDiv">
+                    <input id="description" type="text" placeholder="Description">
+                </div>
+                <div id="amountDiv">
+                    <input id="amount" type="number" placeholder="Amount">
+                </div>
+                <div id="selectDiv">
+                    <select name="account" id="accountType">
+                        <option id="incomeID" value="income">Income</option>
+                        <option id="expenseID" value="expense">Expense</option>
+                    </select>
+                </div>
+                <div id="addBtnDiv">
+                    <button id="addBtn" type="button">Add</button>
+                </div>
+            </div>
+        </div>
+        <div id="incomePrint">
+            <h3>Income</h3>
+            <ul id="incomeUl"></ul>
+        </div>
+        <div id="expensePrint">
+            <h3>Expense</h3>
+            <ul id="expenseUl"></ul>
+        </div>
+        <div class="balance">
+            <h3>Balance</h3>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
